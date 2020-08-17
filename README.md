@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![MaximeSoulie](https://circleci.com/gh/MaximeSoulie/p5-microservice-k8s.svg?style=svg)](https://circleci.com/gh/MaximeSoulie/p5-microservice-k8s)
 
 ## Project Overview
 

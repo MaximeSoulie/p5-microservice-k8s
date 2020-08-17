@@ -8,7 +8,8 @@
 setup:
 	# Create python virtualenv & source it
 	# source ~/.devops/bin/activate
-	python3 -m venv ~/.devops
+	python3 -m venv ~/Repositories/UDACITY/p5-microservice-k8s/.devops
+	source ~/Repositories/UDACITY/p5-microservice-k8s/.devops/bin/activate
 
 install:
 	# This should be run from inside a virtualenv

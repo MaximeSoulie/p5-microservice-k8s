@@ -1,0 +1,24 @@
+$ ./run_kubernetes.sh
+deployment.apps/udacity-p5mk8 created
+#########################################
+NAME                             READY   STATUS              RESTARTS   AGE
+udacity-p5mk8-84f7477fd8-j5kj5   0/1     ContainerCreating   0          10s
+#########################################
+#########################################
+NAME            READY   UP-TO-DATE   AVAILABLE   AGE
+udacity-p5mk8   0/1     1            0           10s
+#########################################
+#########################################
+service/udacity-p5mk8 exposed
+#########################################
+#########################################
+NAME            TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE
+kubernetes      ClusterIP      10.96.0.1       <none>        443/TCP        157m
+udacity-p5mk8   LoadBalancer   10.105.167.97   <pending>     80:30861/TCP   0s
+#########################################
+|-----------|---------------|-------------|-----------------------------|
+| NAMESPACE |     NAME      | TARGET PORT |             URL             |
+|-----------|---------------|-------------|-----------------------------|
+| default   | udacity-p5mk8 |          80 | http://192.168.99.101:30861 |
+|-----------|---------------|-------------|-----------------------------|
+🎉  Opening service default/udacity-p5mk8 in default browser...
